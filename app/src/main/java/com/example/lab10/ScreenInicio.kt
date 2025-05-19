@@ -13,7 +13,9 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun ScreenInicio() {
     Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
         // Cargar y mostrar la imagen desde los recursos drawable usando painterResource
